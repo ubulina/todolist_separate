@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Todolist(props) {
+function TodoTable(props) {
 
     return (
 
@@ -25,3 +25,5 @@ export default function Todolist(props) {
         </div>
     );
 }
+
+export default TodoTable;
